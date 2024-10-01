@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 900px;
+        }
+        tr:nth-child(1) {
+            background-color: #418f8f;
+            color: #fff;
+        }
+        tr:nth-child(2) {
+            background-color: #f5f541;
+            color: #000;
+        }
+        tr:nth-child(1):hover,
+        tr:nth-child(2):hover {
+            background-color: inherit;
+            color: inherit;
+        }
+        tr:nth-child(1):hover {
+            background-color: #f5f541;
+            color: #000;
+        }
+        tr:nth-child(2):hover {
+            background-color: #418f8f;
+            color: #fff;
+        }
+        td {
+            width: 100px;
+            height: 50px;
+        }
+        table {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="2" rowspan="2">Грубрин</td>
+        <td>Роман</td>
+        <td rowspan="2">Олександрович</td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td>ІК-23 ЛР-2 Варіант 41(1)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+        <td colspan="2" rowspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+<div class="container-pos">
+    <div class="red-light-pos"></div>
+    <div class="yellow-light-pos"></div>
+    <div class="green-light-pos"></div>
+</div>
+<div class="container-trans">
+    <div class="red-light-trans"></div>
+    <div class="yellow-light-trans"></div>
+    <div class="green-light-trans"></div>
+</div>
+</body>
+</html>

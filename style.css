@@ -1,0 +1,75 @@
+.container-pos, .container-trans {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* Використання position */
+.container-pos{
+    background-color: #d8d8d8;
+    border-radius: 80px;
+    border: 2px solid black;
+    width: 250px;
+    height: 650px;
+    position: relative;
+}
+.red-light-pos{
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.yellow-light-pos{
+    background-color: #ffff00;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+.green-light-pos{
+    background-color: #00b050;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:450px;
+    right: 50px;
+}
+/* Використання transform */
+.container-trans{
+    background-color: #d8d8d8;
+    border-radius: 80px;
+    border: 2px solid black;
+    width: 250px;
+    height: 650px;
+}
+.red-light-trans{
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    transform: translate(50px, 50px);
+}
+.yellow-light-trans {
+    background-color: #ffff00;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    transform: translate(50px, 100px);
+}
+.green-light-trans {
+    background-color: #00b050;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    transform: translate(50px, 150px);
+}
